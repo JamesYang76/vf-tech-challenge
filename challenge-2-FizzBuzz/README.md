@@ -20,12 +20,17 @@ For example `fizzBuzz(12, 20)` should return a string:
 
 ### How to run tests (if tests provided)
 
-TODO put instructons here ... e.g.
-
+Install Packages
 ```sh
 $ yarn
 ```
 
+Test fizzBuzz
 ```sh
 $ yarn test
+```
+
+Build fizzBuzz
+```sh
+$ yarn build
 ```
