@@ -1,0 +1,28 @@
+.header {
+  padding: 1.5rem 2rem;
+}
+
+.headerInfo {
+  display: flex;
+  flex-wrap: wrap; 
+
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.subInfo {
+  color: grey;
+}
+
+.marginBottom {
+  margin-bottom: .5rem;
+}
+
+.dropdownBtn {
+ /* filter: invert(100%); */
+  background-color: black;
+  color: white;
+  border-radius: 0;
+}

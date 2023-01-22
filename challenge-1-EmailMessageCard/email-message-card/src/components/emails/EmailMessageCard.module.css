@@ -1,0 +1,18 @@
+.card {
+  background-color: white;
+  margin: 1rem;
+}
+/* reset default padding provided Ant Design */
+.card :global(.ant-collapse-content) {
+  border-top: none;
+}
+.card :global(.ant-collapse-content-box) {
+  padding: 0 !important;
+}
+.card :global(.ant-collapse-header) {  
+  padding: 0 !important;
+}
+
+.body {
+  padding: 1.5rem 2rem;
+}
