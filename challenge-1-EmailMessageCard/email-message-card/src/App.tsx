@@ -30,7 +30,7 @@ const App: FC = () => (
     />
     <EmailMessageCard
       message={{
-        id: "1234",
+        id: "1235",
         dateTimeCreated: 1560120300000,
         from: { name: "Support", email: "support@company.com" },
         to: [{ name: "Sianna Hallas", email: "shallas@gmail.com" }],
@@ -49,7 +49,7 @@ const App: FC = () => (
     />
     <EmailMessageCard
       message={{
-        id: "1234",
+        id: "1236",
         dateTimeCreated: 1560120300000,
         from: { name: "Support", email: "support@company.com" },
         to: [{ name: "", email: "shallas@gmail.com" }],

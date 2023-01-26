@@ -99,6 +99,7 @@ const EmailMessageHeaderExpanded: FC<Props> = ({ message, onReply, onReplyAll, o
 
           <Dropdown
             menu={menuProps}
+            overlayClassName={classes.dropdownMenu}
           >
             <Button className={classes.dropdownBtn} icon={<EllipsisOutlined />} />
           </Dropdown>

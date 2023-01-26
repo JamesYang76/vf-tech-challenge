@@ -25,3 +25,7 @@
   color: white;
   border-radius: 0;
 }
+
+.dropdownMenu {
+  width: 120px;
+}
