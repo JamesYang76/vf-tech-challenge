@@ -25,7 +25,7 @@ const EmailMessageHeader: FC<Props> = ({ message }) => {
     <section className={classes.header}> 
       <div className={classes.collpasedHeader}>
         <div className={classes.hearderItem}>
-          <Title level={5}>
+          <Title level={5} className={classes.sender}>
            { formatContact(message.from) }
           </Title>
           <div className={classes.preview}>
