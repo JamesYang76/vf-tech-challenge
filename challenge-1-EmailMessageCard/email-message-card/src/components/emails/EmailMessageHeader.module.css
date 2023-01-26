@@ -1,0 +1,30 @@
+.header {
+  padding: 1.5rem 2rem;
+}
+
+.collpasedHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hearderItem {
+  flex: 1;
+  width: 0;
+}
+
+.sender {
+  white-space: nowrap;
+}
+
+.preview {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 60%;
+}
+
+.dateTime {
+  color: grey;
+}

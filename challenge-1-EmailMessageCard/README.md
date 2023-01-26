@@ -110,7 +110,7 @@ The component will be used like so...
 
 ### How to view/demo component
 
-TODO put instructons here ... e.g.
+Go to `email-message-card`
 
 ```sh
 $ yarn
